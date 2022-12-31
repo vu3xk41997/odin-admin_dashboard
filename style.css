@@ -83,13 +83,46 @@ body {
 .header {
 	display: grid;
 	grid-template-rows: 2fr 3fr;
-	padding-left: 30px;
+	padding: 0px 30px;
+}
+
+.header_1 {
+	display: grid;
+	grid-template-columns: 10fr 2fr;
+	align-items: center;
+	margin: 20px 0px;
+}
+
+.searchbar {
+	display: grid;
+	grid-template-columns: 1fr 15fr;
+	align-items: center;
+}
+
+.searchbar p {
+	background-color: #f9faf8;;
+	color: #1f2937;
+	line-height: 2;
+	padding-left: 16px;
+	width: 90%;
+	border-radius: 24px;
+}
+
+.personal_info {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	align-items: center;
+}
+
+.info_profile {
+	height: 40px;
+	border-radius: 50%;
 }
 
 .header_2 {
 	display: grid;
-	grid-template-columns: 6fr 4fr;
-	margin-bottom: 20px;
+	grid-template-columns: 6fr 2fr;
+	/* margin-bottom: 20px; */
 }
 
 .header_2_left {
@@ -114,13 +147,12 @@ body {
 	font-size: 18px;
 	font-weight: bold;
 	line-height: 1.2;
-
 }
 
 .header_2 ul {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	align-items: center;
 }
 
